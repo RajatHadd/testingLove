@@ -1,0 +1,106 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  font-size: 22px;
+  margin-bottom: 15%;
+  gap: 5%;
+  width: auto;
+  height: 850px;
+  position: relative;
+}
+.app-container video {
+  width: 97%;
+  height: 900px;
+  object-fit: cover;
+  z-index: -3;
+  opacity: 0.7;
+  position: absolute;
+  top: -1rem;
+  left: 2%;
+}
+
+.app-container div {
+  padding: 10px;
+}
+
+body {
+  margin: 0 !important;
+  font-family: "Tilt Neon", cursive !important;
+  width: 100% !important;
+}
+
+.button {
+  border-radius: 34px;
+  border: none;
+  color: while;
+  font-size: 16px;
+  padding: 11px 26px;
+  background: linear-gradient(180deg, pink 26.71%, rgb(245, 199, 227) 99.36%);
+  box-shadow: 0px 2px 12px 3px black;
+}
+
+.button:hover {
+  background: white;
+  cursor: pointer;
+  border: 1px solid pink;
+}
+.game-container {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+  border: 1px solid pink;
+}
+.game-container .button {
+  margin-bottom: 1rem !important;
+}
+.result-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid pink;
+  width: 400px;
+  height: 350px;
+}
+
+.result-container .parent-container {
+  background-color: rgb(252, 6, 239);
+  width: 90%;
+  padding: 0;
+}
+#resultName1,
+#resultName2 {
+  color: red;
+  font-size: small;
+}
+.result-container .parent-container #child-container {
+  background-color: pink;
+  width: 0px;
+  margin: 0;
+}
+
+#result-percentage,
+#love-message {
+  text-align: center;
+}
+
+#nameOne,
+#nameTwo {
+  background-color: rgb(247, 223, 227);
+}
+#heart-gify {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-top: 1rem;
+}
+input {
+  background-color: pink;
+}
+.button #submit-link {
+  text-decoration: none;
+  color: black;
+}
